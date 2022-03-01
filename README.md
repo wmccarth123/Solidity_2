@@ -8,14 +8,6 @@ After waiting for years and passing several tests, the Martian Aerospace Agency 
 
 KaseiCoin will be a fungible token that’s ERC-20 compliant. You’ll launch a crowdsale that will allow people who are moving to Mars to convert their earthling money to KaseiCoin.
 
-## Files
-
-Download the following files to help you get started:
-
-[KaseiCoin.sol](./Starter_Code/KaseiCoin.sol)
-
-[KaseiCoinCrowdsale.sol](./Starter_Code/KaseiCoinCrowdsale.com)
-
 ## Instructions
 
 The steps for this assignment are divided into the following subsections:
@@ -84,11 +76,14 @@ In this subsection, you’ll define the KaseiCoin crowdsale contract. To do so, 
 
 3. In the `KaisenCoinCrowdsale` constructor, provide parameters for all the features of your crowdsale, such as `rate`, `wallet` (where to deposit the funds that the token raises), and `token`. Configure these parameters as you want for your KaseiCoin token.
 
-4. Compile the contract by using compiler version 0.5.0.
+4. Compile the contract by using compiler version 0.5.17.
 
 5. Check for any errors, and debug them as needed.
 
 6. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
+
+![Crowdsaledep1](CS1.jpeg)
+
 
 ### Step 3: Create the KaseiCoin Deployer Contract
 
@@ -127,6 +122,8 @@ Next, in the `KaseiCoinCrowdsaleDeployer` contract, you’ll add variables to st
 6. Check for any errors, and debug them as needed.
 
 7. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Git repository.
+
+![Crowdsaledep](crowdsale_deployed.jpeg)
 
 ### Step 4: Deploy and Test the Crowdsale on a Local Blockchain
 
