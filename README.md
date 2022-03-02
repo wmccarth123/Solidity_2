@@ -1,6 +1,4 @@
-# Unit 21: Martian Token Crowdsale
-
-![alt=""](Images/application-image.png)
+# Martian Token Crowdsale
 
 ## Background
 
@@ -132,7 +130,19 @@ In this subsection, you’ll deploy the crowdsale to a local blockchain. You’l
 > **Important:** Record a short video or take screenshots that illustrate the following steps as evidence of your deployed crowdsale contract.
 
 1. Deploy the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
+![Deployconfirm](Reploy_confirmation.jpeg)
 
+![deployedcon](Deployed_contracts.jpeg)
 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
 
+Note mutiple buy tokens were used not just the 4 ether below
+![buytoken](Buytoken.jpeg)
+
+![Confirmation](Confirmation.jpeg)
+
+![Balance](Balance.jpeg)
+
 3. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
+![ts](totalsupply.jpeg)
+
+Note Optional activity not completed 
